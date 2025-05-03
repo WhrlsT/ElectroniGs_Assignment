@@ -1,0 +1,238 @@
+[
+  {
+    "orderId": "5f865ee0-85c4-4d18-9449-a683aeb526d9",
+    "userId": "de7cef03-57ad-4d3d-bb50-91cdfb892afe",
+    "orderItems": [
+      {
+        "product": {
+          "productType": "Processor",
+          "productID": "P019",
+          "productName": "1",
+          "price": 1.0,
+          "stock": 0,
+          "manufacturer": "1",
+          "coreCount": 1,
+          "baseClockSpeed": 1.0,
+          "socketType": "1",
+          "hasIntegratedGraphics": true
+        },
+        "quantity": 1,
+        "subtotal": 1.0
+      }
+    ],
+    "payment": {
+      "type": "TNGPayment",
+      "paymentId": "eee39ec0-5758-42ba-a333-1716b49ca5e7",
+      "paymentMethod": "TNG",
+      "paymentStatus": "paid",
+      "paymentAmount": 1.0,
+      "paymentDate": "2025-05-01T23:08:48.915693700",
+      "phoneNumber": "0137383232"
+    },
+    "shippingStatus": "Shipped",
+    "orderDate": "2025-05-01T23:08:48.915693700",
+    "totalAmount": 1.0
+  },
+  {
+    "orderId": "002f888f-5771-475f-88ba-f63e6cc54c52",
+    "userId": "de7cef03-57ad-4d3d-bb50-91cdfb892afe",
+    "orderItems": [
+      {
+        "product": {
+          "productType": "GraphicCard",
+          "productID": "P020",
+          "productName": "1",
+          "price": 2.0,
+          "stock": 2,
+          "manufacturer": "2",
+          "modelName": "1",
+          "vramSize": 2,
+          "coreClockSpeed": 2.0,
+          "cores": 3
+        },
+        "quantity": 1,
+        "subtotal": 2.0
+      },
+      {
+        "product": {
+          "productType": "Motherboard",
+          "productID": "P021",
+          "productName": "Sigma",
+          "price": 1.0,
+          "stock": 0,
+          "formFactor": "A",
+          "chipset": "",
+          "cpuSocketType": "1",
+          "ramSlots": 1,
+          "network": "1"
+        },
+        "quantity": 1,
+        "subtotal": 1.0
+      }
+    ],
+    "payment": {
+      "type": "DebitPayment",
+      "paymentId": "0c5d7d76-1f4a-4e3b-9259-80577428620c",
+      "paymentMethod": "Card",
+      "paymentStatus": "paid",
+      "paymentAmount": 3.0,
+      "paymentDate": "2025-05-01T23:08:48.916693200",
+      "cardNumber": "4242424242424242",
+      "expiryDate": "12/34",
+      "cvv": "123"
+    },
+    "shippingStatus": "pending",
+    "orderDate": "2025-05-01T23:08:48.916693200",
+    "totalAmount": 3.0
+  },
+  {
+    "orderId": "45a6cb09-6f3f-44e2-800f-ca74a8e46ca1",
+    "userId": "e28d4f49-039e-4d80-a2f9-f243883c811a",
+    "orderItems": [
+      {
+        "product": {
+          "productType": "Motherboard",
+          "productID": "P022",
+          "productName": "Sigma",
+          "price": 1.0,
+          "stock": 0,
+          "formFactor": "A",
+          "chipset": "",
+          "cpuSocketType": "1",
+          "ramSlots": 1,
+          "network": "1"
+        },
+        "quantity": 1,
+        "subtotal": 1.0
+      }
+    ],
+    "payment": {
+      "type": "TNGPayment",
+      "paymentId": "7b47a4e2-ce7d-4a37-b22f-d04752ec3110",
+      "paymentMethod": "TNG",
+      "paymentStatus": "paid",
+      "paymentAmount": 1.0,
+      "paymentDate": "2025-05-01T23:08:48.916693200",
+      "phoneNumber": "0137383232"
+    },
+    "shippingStatus": "pending",
+    "orderDate": "2025-05-01T23:08:48.916693200",
+    "totalAmount": 1.0
+  },
+  {
+    "orderId": "680b7a95-a1e6-4fdf-9a64-4a32f5202213",
+    "userId": "0e0af859-99d2-4cfc-bfc7-9fe482a69de0",
+    "orderItems": [
+      {
+        "product": {
+          "productType": "Motherboard",
+          "productID": "P023",
+          "productName": "Sigma",
+          "price": 1.0,
+          "stock": 22,
+          "formFactor": "A",
+          "chipset": "",
+          "cpuSocketType": "1",
+          "ramSlots": 1,
+          "network": "1"
+        },
+        "quantity": 1,
+        "subtotal": 1.0
+      },
+      {
+        "product": {
+          "productType": "Motherboard",
+          "productID": "P024",
+          "productName": "4",
+          "price": 1.0,
+          "stock": 2,
+          "formFactor": "3",
+          "chipset": "2",
+          "cpuSocketType": "4",
+          "ramSlots": 1,
+          "network": "3"
+        },
+        "quantity": 10,
+        "subtotal": 10.0
+      },
+      {
+        "product": {
+          "productType": "Processor",
+          "productID": "P025",
+          "productName": "1",
+          "price": 2.0,
+          "stock": 1,
+          "manufacturer": "4",
+          "coreCount": 5,
+          "baseClockSpeed": 6.0,
+          "socketType": "7",
+          "hasIntegratedGraphics": true
+        },
+        "quantity": 2,
+        "subtotal": 4.0
+      }
+    ],
+    "payment": {
+      "type": "TNGPayment",
+      "paymentId": "265d6e4c-4429-4f8a-a42e-36003966dc0f",
+      "paymentMethod": "TNG",
+      "paymentStatus": "paid",
+      "paymentAmount": 15.0,
+      "paymentDate": "2025-05-01T23:08:48.916693200",
+      "phoneNumber": "0137383232"
+    },
+    "shippingStatus": "pending",
+    "orderDate": "2025-05-01T23:08:48.916693200",
+    "totalAmount": 15.0
+  },
+  {
+    "orderId": "7d270b80-f17f-429e-912d-46ef18db8b6c",
+    "userId": "0e0af859-99d2-4cfc-bfc7-9fe482a69de0",
+    "orderItems": [
+      {
+        "product": {
+          "productType": "GraphicCard",
+          "productID": "P018",
+          "productName": "1",
+          "price": 2.0,
+          "stock": 0,
+          "manufacturer": "2",
+          "modelName": "1",
+          "vramSize": 2,
+          "coreClockSpeed": 2.0,
+          "cores": 1
+        },
+        "quantity": 1,
+        "subtotal": 2.0
+      },
+      {
+        "product": {
+          "productType": "GraphicCard",
+          "productID": "P017",
+          "productName": "1",
+          "price": 2.0,
+          "stock": 0,
+          "manufacturer": "4",
+          "modelName": "5",
+          "vramSize": 1,
+          "coreClockSpeed": 3.0,
+          "cores": 2
+        },
+        "quantity": 3,
+        "subtotal": 6.0
+      }
+    ],
+    "payment": {
+      "type": "TNGPayment",
+      "paymentId": "bb934ccf-2b4d-4475-97cc-f27b788c8fb1",
+      "paymentMethod": "TNG",
+      "paymentStatus": "paid",
+      "paymentAmount": 8.0,
+      "paymentDate": "2025-05-01T23:08:47.900072900",
+      "phoneNumber": "0137383232"
+    },
+    "shippingStatus": "pending",
+    "orderDate": "2025-05-01T23:08:47.901577900",
+    "totalAmount": 8.0
+  }
+]

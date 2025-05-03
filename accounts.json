@@ -1,0 +1,54 @@
+[
+  {
+    "accountID": "de7cef03-57ad-4d3d-bb50-91cdfb892afe",
+    "username": "def",
+    "email": "def@gmail.com",
+    "password": "@lujaZ22",
+    "accountType": "customer"
+  },
+  {
+    "role": "Admin",
+    "accountID": "admin-001",
+    "username": "admin",
+    "email": "admin@system.com",
+    "password": "admin",
+    "accountType": "admin"
+  },
+  {
+    "accountID": "e28d4f49-039e-4d80-a2f9-f243883c811a",
+    "username": "abc",
+    "email": "abc@gmail.com",
+    "password": "abcd@123",
+    "accountType": "customer"
+  },
+  {
+    "role": "Manager",
+    "accountID": "4a36af09-eabb-4cbe-8c2c-19bad6ce5e46",
+    "username": "Manager",
+    "email": "Manager@gmail.com",
+    "password": "Manager1!",
+    "accountType": "admin"
+  },
+  {
+    "role": "Staff",
+    "accountID": "3821ae6e-6c89-448d-96ea-dcacb511c156",
+    "username": "Staff",
+    "email": "Staff@gmail.com",
+    "password": "Staff@123",
+    "accountType": "admin"
+  },
+  {
+    "accountID": "0e0af859-99d2-4cfc-bfc7-9fe482a69de0",
+    "username": "awtar",
+    "email": "kelvinsingh145@gmail.com",
+    "password": "@wtarS1ngh",
+    "accountType": "customer"
+  },
+  {
+    "accountID": "69bb4a3f-93fb-4c6a-9fa5-ccb118f958df",
+    "username": "WheyLong",
+    "email": "rotanrontan@gmail.com",
+    "password": "Whey@123",
+    "accountType": "customer"
+  }
+]
