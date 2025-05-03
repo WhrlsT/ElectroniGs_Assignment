@@ -209,16 +209,19 @@ public class AdminMenu {
                     System.out.println("Total Admins: " + accounts.stream().filter(a -> "admin".equals(a.getAccountType())).count());
                     
                     System.out.println("\nUser Details:");
-                    System.out.println("Username\t\tEmail\t\t\tAccount Type\tRole");
-                    System.out.println("----------------------------------------------------------------");
+                    System.out.println("--------------------------------------------------------------------------------------------------------");
+                    System.out.printf("| %-15s | %-30s | %-12s | %-10s |\n", 
+                        "Username", "Email", "Account Type", "Role");
+                    System.out.println("--------------------------------------------------------------------------------------------------------");
                     for (Account account : accounts) {
                         String role = account instanceof Admin ? ((Admin) account).getRole() : "N/A";
-                        System.out.printf("%-16s\t%-24s\t%-12s\t%s%n",
+                        System.out.printf("| %-15s | %-30s | %-12s | %-10s |\n",
                             account.getUsername(),
                             account.getEmail(),
                             account.getAccountType(),
                             role);
                     }
+                    System.out.println("--------------------------------------------------------------------------------------------------------");
                     // Wait for user
                     System.out.println("\nPress Enter to go back...");
                     userInput.nextLine();
@@ -1290,6 +1293,7 @@ try {
         if (confirmation.equals("y")) {
             boolean removed = products.removeIf(p -> p.getProductID().equals(productToDelete.getProductID()));
             if (removed) {
+                Product.reserializeProductIDs(products); // Reserialize IDs after deletion
                 JsonHandler.saveProducts(products); // Save the updated list
                 return true; // Indicate successful deletion
             } else {

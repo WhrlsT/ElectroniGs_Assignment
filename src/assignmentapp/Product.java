@@ -61,36 +61,31 @@ public abstract class Product implements Sortable<Product> {
     public String getProductID() {
         return productID;
     }
-
     public String getProductName() {
         return productName;
     }
-
     public double getPrice() {
         return price;
     }
-
     public int getStock() {
         return stock;
     }
-
-     public String getProductType() {
+    public String getProductType() {
         return productType;
     }
-
     public String getName() {
         return productName;
     }
 
-    // Setters (optional, but useful for managing stock, etc.)
+    // Setters 
     public void setProductName(String productName) {
         this.productName = productName;
     }
-
+    
     public void setPrice(double price) {
         this.price = price;
     }
-
+    
     public void setStock(int stock) {
         if (stock >= 0) {
             this.stock = stock;
@@ -98,16 +93,6 @@ public abstract class Product implements Sortable<Product> {
             System.err.println("Stock cannot be negative.");
             // Or throw an IllegalArgumentException
         }
-    }
-     @Override
-    public String toString() {
-        return "Product{" +
-               "productID='" + productID + '\'' +
-               ", productName='" + productName + '\'' +
-               ", price=" + price +
-               ", stock=" + stock +
-               ", productType='" + productType + '\'' + // Include type
-               '}';
     }
 
     // Static sorting methods
@@ -237,5 +222,14 @@ public abstract class Product implements Sortable<Product> {
         return products.stream()
             .filter(p -> p.getClass().getSimpleName().equalsIgnoreCase(category))
             .collect(Collectors.toList());
+    }
+
+    public static void reserializeProductIDs(List<Product> products) {
+        int counter = 1;
+        for (Product product : products) {
+            product.productID = String.format("P%03d", counter++);
+        }
+        // Update the static counter as well
+        updateIdCounter(products.size());
     }
 }

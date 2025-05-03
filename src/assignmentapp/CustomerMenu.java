@@ -91,8 +91,11 @@ public class CustomerMenu {
                        VIEW PRODUCTS
 ------------------------------------------------------------""");
 
-            // Filter by category
-            List<Product> filteredProducts = Product.filterByCategory(products, categoryFilter);
+            // Filter by category and stock
+            List<Product> filteredProducts = Product.filterByCategory(products, categoryFilter)
+                .stream()
+                .filter(p -> p.getStock() > 0) // Only show products with stock > 0
+                .collect(Collectors.toList());
 
             // Sort filtered products
             final boolean asc = ascending;
@@ -656,17 +659,18 @@ public class CustomerMenu {
 
             System.out.println("\nPayment successful!");
             System.out.println("\nOrder Details:");
-            System.out.println("------------------------------------------------------------------------------------");
-            System.out.printf("| %-5s | %-30s | %-10s | %-8s | %-10s |\n", "ID", "Name", "Price", "Qty", "Total");
-            System.out.println("------------------------------------------------------------------------------------");
-            for (OrderItem item : order.getOrderItems()) {
-                System.out.printf("| %-5s | %-30s | %-10.2f | %-8d | %-10.2f |\n",
+        System.out.println("--------------------------------------------------------------------------------------------------------");
+        System.out.printf("| %-5s | %-55s | %-10s | %-8s | %-10s |\n", "ID", "Name", "Price", "Qty", "Total");
+        System.out.println("--------------------------------------------------------------------------------------------------------");
+
+        for (CartItem item : currentCart.getItems()) {
+            System.out.printf("| %-5s | %-55s | RM%-8.2f | %-8d | RM%-8.2f |\n",
                     item.getProduct().getProductID(),
                     item.getProduct().getName(),
                     item.getProduct().getPrice(),
                     item.getQuantity(),
                     item.getSubtotal());
-            }
+        }
             System.out.println("------------------------------------------------------------------------------------");
             System.out.printf("Total: RM%.2f\n", order.getTotalAmount());
             System.out.println("Payment Method: " + order.getPayment().getPaymentMethod());

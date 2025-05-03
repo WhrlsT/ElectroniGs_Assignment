@@ -49,8 +49,6 @@ public class Processor extends Product {
         return integratedGraphics;
     }
 
-    // Optional: Setters for specific fields
-
     @Override
     public String toString() {
         return "Processor{" +

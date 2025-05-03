@@ -6,7 +6,7 @@
       {
         "product": {
           "productType": "Processor",
-          "productID": "P019",
+          "productID": "P100",
           "productName": "1",
           "price": 1.0,
           "stock": 0,
@@ -26,11 +26,11 @@
       "paymentMethod": "TNG",
       "paymentStatus": "paid",
       "paymentAmount": 1.0,
-      "paymentDate": "2025-05-01T23:08:48.915693700",
+      "paymentDate": "2025-05-03T20:14:07.294677400",
       "phoneNumber": "0137383232"
     },
     "shippingStatus": "Shipped",
-    "orderDate": "2025-05-01T23:08:48.915693700",
+    "orderDate": "2025-05-03T20:14:07.294677400",
     "totalAmount": 1.0
   },
   {
@@ -40,7 +40,7 @@
       {
         "product": {
           "productType": "GraphicCard",
-          "productID": "P020",
+          "productID": "P089",
           "productName": "1",
           "price": 2.0,
           "stock": 2,
@@ -56,7 +56,7 @@
       {
         "product": {
           "productType": "Motherboard",
-          "productID": "P021",
+          "productID": "P090",
           "productName": "Sigma",
           "price": 1.0,
           "stock": 0,
@@ -76,13 +76,13 @@
       "paymentMethod": "Card",
       "paymentStatus": "paid",
       "paymentAmount": 3.0,
-      "paymentDate": "2025-05-01T23:08:48.916693200",
+      "paymentDate": "2025-05-03T20:14:04.470379200",
       "cardNumber": "4242424242424242",
       "expiryDate": "12/34",
       "cvv": "123"
     },
-    "shippingStatus": "pending",
-    "orderDate": "2025-05-01T23:08:48.916693200",
+    "shippingStatus": "Processing",
+    "orderDate": "2025-05-03T20:14:04.470379200",
     "totalAmount": 3.0
   },
   {
@@ -92,7 +92,7 @@
       {
         "product": {
           "productType": "Motherboard",
-          "productID": "P022",
+          "productID": "P103",
           "productName": "Sigma",
           "price": 1.0,
           "stock": 0,
@@ -112,11 +112,11 @@
       "paymentMethod": "TNG",
       "paymentStatus": "paid",
       "paymentAmount": 1.0,
-      "paymentDate": "2025-05-01T23:08:48.916693200",
+      "paymentDate": "2025-05-03T20:14:07.294677400",
       "phoneNumber": "0137383232"
     },
     "shippingStatus": "pending",
-    "orderDate": "2025-05-01T23:08:48.916693200",
+    "orderDate": "2025-05-03T20:14:07.294677400",
     "totalAmount": 1.0
   },
   {
@@ -126,7 +126,7 @@
       {
         "product": {
           "productType": "Motherboard",
-          "productID": "P023",
+          "productID": "P104",
           "productName": "Sigma",
           "price": 1.0,
           "stock": 22,
@@ -142,7 +142,7 @@
       {
         "product": {
           "productType": "Motherboard",
-          "productID": "P024",
+          "productID": "P105",
           "productName": "4",
           "price": 1.0,
           "stock": 2,
@@ -158,7 +158,7 @@
       {
         "product": {
           "productType": "Processor",
-          "productID": "P025",
+          "productID": "P106",
           "productName": "1",
           "price": 2.0,
           "stock": 1,
@@ -178,11 +178,11 @@
       "paymentMethod": "TNG",
       "paymentStatus": "paid",
       "paymentAmount": 15.0,
-      "paymentDate": "2025-05-01T23:08:48.916693200",
+      "paymentDate": "2025-05-03T20:14:07.295677200",
       "phoneNumber": "0137383232"
     },
     "shippingStatus": "pending",
-    "orderDate": "2025-05-01T23:08:48.916693200",
+    "orderDate": "2025-05-03T20:14:07.295677200",
     "totalAmount": 15.0
   },
   {
@@ -192,7 +192,7 @@
       {
         "product": {
           "productType": "GraphicCard",
-          "productID": "P018",
+          "productID": "P107",
           "productName": "1",
           "price": 2.0,
           "stock": 0,
@@ -208,7 +208,7 @@
       {
         "product": {
           "productType": "GraphicCard",
-          "productID": "P017",
+          "productID": "P108",
           "productName": "1",
           "price": 2.0,
           "stock": 0,
@@ -228,11 +228,97 @@
       "paymentMethod": "TNG",
       "paymentStatus": "paid",
       "paymentAmount": 8.0,
-      "paymentDate": "2025-05-01T23:08:47.900072900",
+      "paymentDate": "2025-05-03T20:14:07.295677200",
       "phoneNumber": "0137383232"
     },
     "shippingStatus": "pending",
-    "orderDate": "2025-05-01T23:08:47.901577900",
+    "orderDate": "2025-05-03T20:14:07.295677200",
     "totalAmount": 8.0
+  },
+  {
+    "orderId": "6d8cfe6b-31aa-401a-b52d-8b553160d3cf",
+    "userId": "69bb4a3f-93fb-4c6a-9fa5-ccb118f958df",
+    "orderItems": [
+      {
+        "product": {
+          "productType": "Motherboard",
+          "productID": "P109",
+          "productName": "Asus Rog Strix B550-f Gaming Motherboard",
+          "price": 620.0,
+          "stock": 0,
+          "formFactor": "ATX",
+          "chipset": "AMD B550",
+          "cpuSocketType": "AM4",
+          "ramSlots": 4,
+          "network": "WIFI 6"
+        },
+        "quantity": 8,
+        "subtotal": 4960.0
+      },
+      {
+        "product": {
+          "productType": "Motherboard",
+          "productID": "P110",
+          "productName": "Gigabyte Am4 B550 Aorus Elite Motherboard",
+          "price": 499.0,
+          "stock": 2,
+          "formFactor": "ATX",
+          "chipset": "AMD",
+          "cpuSocketType": "AM4",
+          "ramSlots": 8,
+          "network": "Yes"
+        },
+        "quantity": 2,
+        "subtotal": 998.0
+      }
+    ],
+    "payment": {
+      "type": "DebitPayment",
+      "paymentId": "575137b1-7ed1-4823-84d7-5a47b357d762",
+      "paymentMethod": "Card",
+      "paymentStatus": "paid",
+      "paymentAmount": 5958.0,
+      "paymentDate": "2025-05-03T20:14:07.295677200",
+      "cardNumber": "1212121212121212",
+      "expiryDate": "05/25",
+      "cvv": "999"
+    },
+    "shippingStatus": "pending",
+    "orderDate": "2025-05-03T20:14:07.295677200",
+    "totalAmount": 5958.0
+  },
+  {
+    "orderId": "00fc14b1-e2de-4fa8-9e7c-15929318ac77",
+    "userId": "69bb4a3f-93fb-4c6a-9fa5-ccb118f958df",
+    "orderItems": [
+      {
+        "product": {
+          "productType": "Motherboard",
+          "productID": "P111",
+          "productName": "MSI MAG B650M Gaming WIFI AM5 mATX Motherboard",
+          "price": 650.0,
+          "stock": 5,
+          "formFactor": "Micro-ATX",
+          "chipset": "AMD B650",
+          "cpuSocketType": "Am5",
+          "ramSlots": 2,
+          "network": "Yes"
+        },
+        "quantity": 5,
+        "subtotal": 3250.0
+      }
+    ],
+    "payment": {
+      "type": "TNGPayment",
+      "paymentId": "4da85991-7ed6-4409-8aad-2c21395fe080",
+      "paymentMethod": "TNG",
+      "paymentStatus": "paid",
+      "paymentAmount": 3250.0,
+      "paymentDate": "2025-05-03T20:14:07.295677200",
+      "phoneNumber": "0127383232"
+    },
+    "shippingStatus": "pending",
+    "orderDate": "2025-05-03T20:14:07.295677200",
+    "totalAmount": 3250.0
   }
 ]
